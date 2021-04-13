@@ -2,4 +2,6 @@ import uuid
 
 myuuid = uuid.uuid4()
 
-return ('Your UUID is: ' +str (myuuid))
+print ('Your UUID is: ' + str (myuuid))
+
+
