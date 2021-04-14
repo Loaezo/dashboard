@@ -1,0 +1,6 @@
+# created by virtualenv automatically
+*.jpg
+*.png
+__pycache__
+database
+django
