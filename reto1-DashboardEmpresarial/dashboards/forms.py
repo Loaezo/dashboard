@@ -3,6 +3,7 @@ from django import forms
 
 #propias
 from dashboards.models import Company
+#from dashboards.models import Market_cap
 
 class CompanyForm(forms.ModelForm):
     #dentro de esta clase creamos otra clase para la generación de formularios: la clase Meta
