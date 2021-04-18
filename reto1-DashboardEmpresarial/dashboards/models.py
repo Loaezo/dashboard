@@ -16,15 +16,3 @@ class Company(models.Model):
     stock_volume = models.IntegerField("Acciones en circulación")
     stock_price = models.IntegerField("Precio por acción")
     market_value = models.CharField("Valores a mercado", max_length=500000, default=random_values)
-
-# esta es la tabla que es la referencia a la primera, pero no será necesaria
-class Market_cap(models.Model):
-    """Market capitalization for the company in a given period"""
-    market_cap_id = models.AutoField(auto_created=True, default=1, primary_key=True)
-    year = models.DateField()
-    mkt_value = models.IntegerField()
-    company = models.ForeignKey(
-        'company',
-        on_delete = models.CASCADE,
-        default = None
-    )
