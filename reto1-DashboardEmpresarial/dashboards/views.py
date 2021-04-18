@@ -26,7 +26,7 @@ class FormCompanyView(HttpRequest):
             company = CompanyForm()
         
         return render(
-            request,
+            request, 
             "CompanyIndex.html",
             {"form":company},
             {"mensaje":'OK'})
