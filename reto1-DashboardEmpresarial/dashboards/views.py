@@ -30,3 +30,4 @@ class FormCompanyView(HttpRequest):
             "CompanyIndex.html",
             {"form":company},
             {"mensaje":'OK'})
+            

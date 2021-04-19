@@ -16,3 +16,4 @@ class Company(models.Model):
     stock_volume = models.IntegerField("Acciones en circulación")
     stock_price = models.IntegerField("Precio por acción")
     market_value = models.CharField("Valores a mercado", max_length=500000, default=random_values)
+    
