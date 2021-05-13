@@ -8,4 +8,4 @@ It was created using Django because it is intented to develop the tech skills ne
 
 @loaezo and @oscaremc contributed to this project the former in the backend and the latter in the frontend. It still needs to be completed, the connection to the database has not been established yet and the values displayed are randomly generated.
 
-To install it, you only need to start a virtual environment in python and activate it. Inside, install Django 3.2 and clone the repository. After the successfull cloning of the project, start the local server using "python manage.py runserver" command in the CLI and it will start a local server in the "127.0.0.1:8000" IP.
+To install it, you only need to start a virtual environment in python and activate it. Inside, install Django 3.2 and clone the repository. After the successful cloning of the project, start the local server using the command (in the CLI)  "python manage.py runserver" in Windows and "python3 manage.py runserver" in Linux and Mac and it will start a local server in the "127.0.0.1:8000" IP.
