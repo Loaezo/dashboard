@@ -1,6 +1,6 @@
 # Business dashboard 
 
-This application was creates as a project for Platzi Master, to help improve the knowledge and skills that are needed in the tech industry. It is meant to be a way of comparing your company's market value against other similar companies.
+This application was created as a project for Platzi Master to help improve the knowledge and skills that are needed in the tech industry. It is meant to be a way of comparing your company's market value against other similar companies.
 
 You are required to manually enter your company's name, description, number of shares it has and the value per share. It will then graphically show you how it is positioned and compare its value against other companies, using the information provided.
 
